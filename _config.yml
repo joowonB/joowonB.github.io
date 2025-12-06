@@ -1,30 +1,30 @@
 title: Joowon Baek portfolio
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # 이 부분은 "baseurl:"까지의 줄바꿈을 무시하라는 의미입니다.
+  여기에 새 웹사이트에 대한 멋진 설명을 작성하세요. 이 내용은
+  _config.yml 파일에서 수정할 수 있습니다. 구글 검색 결과와
+  feed.xml 사이트 설명에 표시됩니다.
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joowonb.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+baseurl: "" # 사이트의 하위 경로입니다. 예: /blog
+url: "https://joowonb.github.io/" # 사이트의 기본 호스트 이름 및 프로토콜입니다. 예: http://example.com
+site-twitter: # 사이트의 트위터 계정이 있다면 여기에 입력하세요.
 
-# Author Settings
-author: Joowon Baek # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+# Author Settings (작성자 설정)
+author: Joowon Baek # 이름을 추가하세요.
+author-img: 깃헙.jpg # 사진을 추가하세요.
+about-author: I am an department of AI focusing on deep learning and edge learning development. Always hungry to keep learning. # 설명을 추가하세요.
+social-twitter: # 트위터 핸들을 추가하세요.
+social-facebook: # 페이스북 핸들을 추가하세요.
+social-github: joowonB # 깃허브 핸들을 추가하세요.
+social-linkedin: # 링크드인 핸들을 추가하세요.
+social-email: yvetree@gmail.com # 이메일 주소를 추가하세요.
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+# Disqus (디스커스)
+discus-identifier: mr-jay # 디스커스 식별자를 추가하세요.
 
-# Tracker
-analytics: # Google Analytics
+# Tracker (추적기)
+analytics: # 구글 애널리틱스
 
-# Build Settings
+# Build Settings (빌드 설정)
 markdown: kramdown
 plugins:
   - jekyll-sitemap
