@@ -8,5 +8,5 @@ external_url: "https://jaybaek.tistory.com/50"   # 티스토리 글 주소
 external_site: "Tistory"  # (선택) 스타일 지정용
 ---
 
-이 글은 티스토리에 올라간 글입니다. 간단한 소개나 요약만 적어두고,  
+이 글은 티스토리 글입니다. 
 실제 전문은 티스토리에서 확인하세요.

@@ -10,14 +10,14 @@ site-twitter: # 사이트의 트위터 계정이 있다면 여기에 입력하�
 
 # Author Settings (작성자 설정)
 author: Joowon Baek # 이름을 추가하세요.
-author-img: jay.jpg # 사진을 추가하세요.
-about-author: I am an department of AI focusing on deep learning and edge learning development. Always hungry to keep learning. # 설명을 추가하세요.
-social-twitter: # 트위터 핸들을 추가하세요.
-social-facebook: # 페이스북 핸들을 추가하세요.
+author-img: codingcat.jpg # 사진을 추가하세요.
+about-author: AI 분야에서 딥러닝과 엣지 러닝을 개발하고 있습니다. 인공지능과 3학년으로 새로운 기술을 배우는 걸 즐기며, 늘 성장에 목마른 개발자입니다.
+social-twitter:
+social-facebook:
 social-github: joowonB # 깃허브 핸들을 추가하세요.
 social-linkedin: # 링크드인 핸들을 추가하세요.
 social-email: yvetree@gmail.com # 이메일 주소를 추가하세요.
-tistory-url: "https://jaybaek.tistory.com/manage/posts/"  # 티스토리 블로그 주소
+tistory-url: "https://jaybaek.tistory.com/"  # 티스토리 블로그 주소
 
 # Disqus (디스커스)
 discus-identifier: mr-jay # 디스커스 식별자를 추가하세요.
