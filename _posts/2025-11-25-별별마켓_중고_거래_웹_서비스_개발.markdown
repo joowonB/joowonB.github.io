@@ -5,7 +5,7 @@ date: 2025-11-25 12:42:20 +0300
 description: 2024년에 진행한 캡스톤프로젝트(중고거래 웹 서비스 개발)
 img: 별별마켓.png 
 fig-caption: # Add figcaption (optional)
-categories: [Portfolio]
+categories: [Project]
 tags: [Capstone]
 ---
 
