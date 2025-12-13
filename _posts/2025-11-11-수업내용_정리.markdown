@@ -1,0 +1,12 @@
+---
+layout: post
+title: "티스토리에서 쓴 머신러닝 글"
+date: 2025-12-13 10:00:00 +0900
+categories: [Blog]        # 원하면 Portfolio 등으로 분류
+tags: [Tistory, ML]
+external_url: "https://jaybaek.tistory.com/50"   # 티스토리 글 주소
+external_site: "Tistory"  # (선택) 스타일 지정용
+---
+
+이 글은 티스토리에 올라간 글입니다. 간단한 소개나 요약만 적어두고,  
+실제 전문은 티스토리에서 확인하세요.
