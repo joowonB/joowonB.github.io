@@ -3,15 +3,14 @@
   {% include head.html %}
   <body>
     <div class="wrapper">
-
       <aside class="sidebar">
         ... 기존 사이드바 그대로 ...
-      </aside> <!-- End Sidebar -->
+      </aside>
 
       <div class="content-box clearfix">
 
-        <!-- 상단(사실은 좌측) 세로 메뉴 -->
-        <nav class="top-nav-vertical">
+        <!-- 여기: 상단 네비게이션 추가 -->
+        <nav class="top-nav">
           <ul>
             <li><a href="{{ site.baseurl }}/">Home</a></li>
             <li><a href="{{ site.baseurl }}/portfolio/">Portfolio</a></li>
@@ -19,14 +18,10 @@
             <li><a href="{{ site.baseurl }}/about/">About</a></li>
           </ul>
         </nav>
+        <!-- 상단 네비 끝 -->
 
-        <!-- 메뉴 바로 아래에 페이지/포스트 내용 -->
-        <div class="page-main">
-          {{ content }}
-        </div>
-
-      </div> <!-- End content-box -->
-
+        {{ content }}
+      </div>
     </div>
 
     {% include analytics.html %}

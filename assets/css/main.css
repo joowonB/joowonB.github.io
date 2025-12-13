@@ -1478,30 +1478,23 @@ a.newer-posts:hover {
   .post .post-content .post-title a {
     font-size: 21px;
   }
-  .top-nav-vertical {
+  .top-nav {
+  border-bottom: 1px solid #eee;
   margin-bottom: 20px;
   }
-  .top-nav-vertical ul {
+  .top-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 15px;
   }
-
-  .top-nav-vertical li {
-    margin-bottom: 8px;   /* 세로 간격 */
-  }
-
-  .top-nav-vertical a {
+  .top-nav a {
     text-decoration: none;
     font-weight: 600;
     color: #444;
   }
-
-  .top-nav-vertical a:hover {
+  .top-nav a:hover {
     color: #000;
-  }
-
-  .page-main {
-    /* 필요하면 위아래 여백 조정 */
   }
 }
