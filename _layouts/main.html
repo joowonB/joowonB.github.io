@@ -11,6 +11,24 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
     </div>
+
+    <!-- 여기부터 카테고리 영역 추가 -->
+    <section class="sidebar-categories">
+      <h3>Categories</h3>
+      <ul>
+        {% assign cats = site.categories | sort %}
+        {% for cat in cats %}
+          {% assign cat_name = cat[0] %}
+          <li>
+            <a href="{{ site.baseurl }}/categories/{{ cat_name | slugify }}/">
+              {{ cat_name }} ({{ cat[1].size }})
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <!-- 카테고리 영역 끝 -->
+
   </header> <!-- End Header -->
   <footer>
     <section class="contact">
@@ -32,7 +50,7 @@ layout: default
           <li class="github"><a href="http://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         {% else %}
           <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
         {% endif %}
